@@ -1,0 +1,11 @@
+name: david-workflow
+on: my-workflow
+
+jobs:
+    first-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: printing name
+              run: echo "Hello David"
+            - name: printing occupation
+              run: echo "i am a data scientist"
