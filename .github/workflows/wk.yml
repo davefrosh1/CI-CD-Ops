@@ -1,5 +1,5 @@
 name: david-workflow
-on: my-workflow
+on: workflow_release
 
 jobs:
     first-job:
